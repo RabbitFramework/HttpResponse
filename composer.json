@@ -1,0 +1,21 @@
+{
+    "name": "rabbitphp/http-response",
+    "description": "Http response component of rabbitphp framework",
+    "type": "component",
+    "require": {
+        "rabbitphp/dependency-injector": "*",
+        "psr/http-message": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaktus",
+            "email": "kaktus@xirion.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rabbit\\Http\\Response\\": "src"
+        }
+    }
+}
