@@ -3,7 +3,6 @@
     "description": "Http response component of rabbitphp framework",
     "type": "component",
     "require": {
-        "rabbitphp/dependency-injector": "*",
         "psr/http-message": "*"
     },
     "license": "MIT",
